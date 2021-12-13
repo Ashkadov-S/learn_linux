@@ -15,7 +15,7 @@
 •	lsusb
 •	udevadm
 
-**Команды Linux**
+**Команды Linux:**
 * ls
 * cat
 
