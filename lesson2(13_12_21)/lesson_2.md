@@ -76,8 +76,8 @@ _**Метафора: /sys это упаковка, а /dev – содержим�
 Dbus - это система, которая используется в основном в операционной системе Linux для того, чтобы различные приложения и сервисы могли общаться между собой.
 
 Пример: VLC
-dbus-send --print-reply --dest=org.mpris.MediaPlayer2.vlc /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play
-dbus-send --print-reply --dest=org.mpris.MediaPlayer2.vlc /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause
+* dbus-send --print-reply --dest=org.mpris.MediaPlayer2.vlc /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play
+* dbus-send --print-reply --dest=org.mpris.MediaPlayer2.vlc /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause
 
 Для работы с модулями ядра, например, с драйверами устройств, предназначены следующие команды:
 •	**lsmod** – информация о модулях ядра;
